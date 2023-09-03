@@ -1,3 +1,9 @@
-## 3202-HIS
-Elo guys this is the repo 
-plz clone it
+# 3202-HIS
+
+### all the scripting will happen under ```src/scripts```
+
+### to run frontend
+
+* clone repo
+* run ```npm install```
+* run ```npm run dev```
