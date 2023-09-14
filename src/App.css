@@ -1,0 +1,82 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.tabsList {
+    /* transform: rotate(90deg); */
+    display: flex;
+    /* vertical */
+    flex-direction: column;
+    /* center vertically */
+    /* position: absolute;
+    top: 50%;
+    transform: translate(0, -50%); */
+
+    background-color: black !important;
+    height: 100vh;
+    padding-right: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.tab > span{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+* {
+    border-top-right-radius: 0px ;
+    border-bottom-right-radius: 0px !important;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black !important;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 20px;
+    margin-right: 0px;
+    border-radius: 25px !important;
+}
+
+.tabContentContainer > div > div {
+    margin: 0px !important;
+    padding-left: 0px !important;
+    width: 100%;
+    height: 100%;
+}
+.tabContentContainer > div  {
+    margin-left: 0px;
+    box-shadow: none !important;
+    width: 100%;
+    height: 100%;
+}
+
+.tabContentContainer{
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+.parent {
+    height: 100vh !important;
+    width: 100vw !important;
+
+    display: flex;
+    justify-content: flex-start;
+}
