@@ -18,28 +18,33 @@ body {
 }
 
 .tabsList {
-    /* transform: rotate(90deg); */
     display: flex;
-    /* vertical */
     flex-direction: column;
-    /* center vertically */
-    /* position: absolute;
-    top: 50%;
-    transform: translate(0, -50%); */
 
     background-color: black !important;
     height: 100vh;
     padding-right: 0px !important;
     border-top-right-radius: 0px !important;
 }
-.tab > span{
+
+.tab{
+    padding: 10px !important;
+}
+
+
+.tab>span {
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
+
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
 }
+
 * {
-    border-top-right-radius: 0px ;
+    border-top-right-radius: 0px;
     border-bottom-right-radius: 0px !important;
 }
+
 .navbar {
     display: flex;
     flex-direction: column;
@@ -47,27 +52,27 @@ body {
     align-items: center;
 
     background-color: black !important;
-    padding: 10px;
-    padding-right: 0px;
-    margin: 20px;
+    padding-left: 5px;
+    margin: 5px 20px;
     margin-right: 0px;
     border-radius: 25px !important;
 }
 
-.tabContentContainer > div > div {
+.tabContentContainer>div>div {
     margin: 0px !important;
     padding-left: 0px !important;
     width: 100%;
     height: 100%;
 }
-.tabContentContainer > div  {
+
+.tabContentContainer>div {
     margin-left: 0px;
     box-shadow: none !important;
     width: 100%;
     height: 100%;
 }
 
-.tabContentContainer{
+.tabContentContainer {
     margin-left: 0px;
     width: 100%;
 }

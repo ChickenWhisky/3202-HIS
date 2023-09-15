@@ -3,6 +3,7 @@ import "./App.css";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faMusic, faVideo } from "@fortawesome/free-solid-svg-icons";
+import Home from "./views/home/home";
 
 function App() {
   // TODO: figure out how to run a script with args and permissions and show the o/p and progress bar and errors if any
@@ -21,9 +22,9 @@ function App() {
             tab:"tab"
           }}
         >
-          <Tab key="home" title={<FontAwesomeIcon icon={faHome} />}>
+          <Tab key="home" title={<FontAwesomeIcon size="lg" className="icon" icon={faHome} />}>
             <Card>
-              <CardBody>Home</CardBody>
+              <CardBody className="home-card"><Home /></CardBody>
             </Card>
           </Tab>
           <Tab key="music" title={<FontAwesomeIcon icon={faMusic} />}>
